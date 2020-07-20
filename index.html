@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+    #loginnregister {
+        display: flex;
+    }
+
+    #Login {
+        background-color: orangered;
+        color: azure;
+    }
+    #register {
+        background-color: dodgerblue;
+        color: beige;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main_Page</title>
+</head>
+
+<body>
+    <h1>Login or Register</h1>
+    <p>You can create your photo feed or login to your account in the service.</p>
+    <div id = loginnregister>
+    <div id="Login">
+    <form>
+        <label>Log In</label>
+        <label>User Name</label>
+        <input type="text" id="unamelogin">
+        <label>Pass Word</label>
+        <input type="password" id="pwlogin">
+        //Enter with gmail.
+        <input type="submit">
+    </form>
+    </div>
+
+
+
+    <div id="register">
+    <form action = app.py>
+        <label>Register</label>
+        <label>User Name</label>
+        <input type="text" id="unreg">
+        <label>Pass Word</label>
+        <input type="password" id="pwregister">
+        <label>Re-Enter Pass Word</label>
+        <input type="password">
+        //Register with Gmail
+        <input type="submit">
+    </form>
+    </div>
+</div>
+
+</body>
+</html>

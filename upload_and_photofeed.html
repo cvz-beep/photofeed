@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <style>
+     #upload-photo {
+         background-color: gainsboro;
+         #box-container: flex;
+     }
+ </style>
+
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id="upload-photo">
+    <form id = "upload" action="/app.py">
+        <label>Title</label>
+        <input type = "text" required><br>
+        <label>Description</label>
+        <input type = "textbox" required><br>
+        <label>Submit Image: </label>
+        <input type= "file" id="picture" action="" required><br>
+        <input type= "submit">
+    </form>
+</div>
+<div id = "photo_feed">
+    <!--
+/*idea 1: connect the mysql database storing photos to the submit button, add the photos to db,
+    show the feed from mysql to a static template / cookie, sessions, sqlite, user profiles, add connections, register
+    login.
+*/-->
+    <!--
+    Send above photo to db/sqlite, ../
+    retrieve serially and show in chronological order:
+    retrieve all photos serially wrt time from the user id
+
+    Create a object of a box of the photo display
+
+    -->
+    <script>{
+        function photo_object() {
+        }
+    }</script>
+    <div id="photo_display_unit">
+        <!-- collect the picture from sql db, show it in a box -->
+        <img src="schema.sql" id="">
+        <p>Title</p><br>
+        <p>Description</p><br>
+    </div>
+</div>
+</body>
+</html>
